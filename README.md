@@ -12,3 +12,7 @@ QWen-2.5 1.5B - https://modelscope.cn/api/v1/models/judd2024/chatllm_quantized_q
 NOTE: 1.5GB download.
 
 To use, enter the filename of the model and click Start model, then the other buttons become available if it's successful, or it lets you know an error occured.
+
+**Currently only supports 64bit**
+
+The code itself supports 32bit but you'd need a 32bit build of the DLLs, which are only distributed precompiled in 64bit. 
